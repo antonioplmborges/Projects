@@ -1,0 +1,4 @@
+[0m[[33mwarn[0m] [0mThe following Scala files are going to be ignored:[0m
+[0m[[33mwarn[0m] [0m  - src/main/Scala/FunctionalDataStructures.scala[0m
+[0m[[33mwarn[0m] [0m  - src/test/Scala/TestSuite.scala[0m
+[0m[[33mwarn[0m] [0mAll code must be in src/main/scala and all tests must be in src/test/scala.[0m

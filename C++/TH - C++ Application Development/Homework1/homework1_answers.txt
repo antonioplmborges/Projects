@@ -1,0 +1,22 @@
+1)
+float num1, num2;
+num1 = 7.3;
+char *ptr;
+char s1[100]= "Hello";
+char s2[100]="Tony";
+
+2)
+Code:
+
+double num1,num2;
+num1 = 10;
+num2 = 5;
+double *fPtr;
+fPtr = &num1;
+cout<<*fPtr<<endl;
+num2=*fPtr;
+cout<<num2<<endl;
+cout<<&num1<<endl;
+cout<<ftPtr<<endl;
+
+g)Yes, the value printed in fPtr is the same as num1;

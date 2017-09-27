@@ -1,0 +1,25 @@
+test
+exit
+test
+compile
+test
+exit
+test
+compile
+exit
+test
+exit
+test
+cala/FunctionalDataStructures.scala:86: match may not be exhaustive.
+[error] It would fail on the following input: (Join(_, _, _), Join(_, _, _))
+[error] case Join ( alist1 , alist2 , _) => (alist1,alist2) match {
+[error]                                     ^
+test
+submit
+test
+exit
+test
+import FunctionalDataStructures._
+exit
+test
+exit

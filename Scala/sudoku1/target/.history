@@ -1,0 +1,18 @@
+test
+last *:checkstyle
+test
+last *:checkstyle
+test
+last *:checkstyle
+test
+quit
+exit
+test
+exit
+test
+exit
+test
+exit
+test
+exit
+console

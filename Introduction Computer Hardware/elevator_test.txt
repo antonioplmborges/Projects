@@ -1,0 +1,610 @@
+		ORG 	100
+
+/---------------------EXTERNAL CALL
+
+getDirFloor,		input				/gets the floor the external button was pushed
+			store 	dirFloor
+			jump 	lessZeroDirFloor
+
+lessZeroDirFloor,	skipcond 000 			/floor<0
+			jump 	outBoundDirFloor	
+
+			HALT			
+
+outBoundDirFloor,	subt 	len
+			skipcond 800			/floor>len
+			jump 	currentFloorDir	
+
+			HALT			
+
+currentFloorDir,	load	dirFloor
+			subt	elevPos
+			skipcond 400
+			jump	dirButt
+	
+			jump	getDirFloor
+		
+
+dirButt,		input			/get user external button call up(1) down(-1) exit(0)
+			store 	dir	
+
+
+
+checkOut,		skipcond 400		/if (0) then exit
+			jump 	checkPos
+
+			HALT			/jump	exit
+
+
+checkPos,		skipcond 800
+			jump	checkNeg
+	
+			jump	checkUpDir
+
+	
+checkUpDir,		subt	up		/check if the up button was pushed
+			skipcond 400
+			HALT
+		
+			jump 	lastFloorDir	
+
+lastFloorDir,		load 	dirFloor	/check if up button was pushed in the last floor
+			subt 	len	
+			skipcond 400
+			jump 	upFlag
+
+			HALT			/jump 	ERROR PUSH UP ON LAST FLOOR
+
+checkNeg,		skipcond 000	
+			HALT
+	
+			jump checkDownDir
+
+checkDownDir,		load	dir		/check if the up button was pushed
+			subt	down
+			skipcond 400
+			HALT			
+		
+			jump 	firstFloorDir	
+
+firstFloorDir,		load 	dirFloor	/check if down button was pushed in the first floor
+			subt 	one	
+			skipcond 400
+			jump 	downFlag
+
+			HALT			
+/----------------------------------------------------------------------------------
+
+upFlag,			load 	up		/sets external direction flag to 1
+			store	dirFlag
+			jump 	floorReqEx
+
+downFlag,		load 	down		/sets external direction flag to -1
+			store	dirFlag
+			jump 	floorReqEx
+
+
+/--------INTERNAL CALL
+
+getFloor,		input			/get user floor request
+			store	pushFloor
+
+
+stopGetFloor,		skipcond 400		/floor(0) = stop request
+			jump 	lessZeroFloor
+		
+			jump	elevPosLst	/stopReq request.RUN SIMULATION or PUSH UP/DOWN another floor
+		
+	
+lessZeroFloor,		skipcond 000 		/floor<0
+			jump 	outBoundFloor	
+
+			HALT			
+
+outBoundFloor,		subt 	len
+			skipcond 800		/floor>len
+			jump 	openDoor
+
+openDoor,		load 	pushFloor
+			subt	open
+			skipcond 400
+			jump 	currentFloor
+
+			jump 	doorOpen
+
+			HALT			
+
+currentFloor,		load 	pushFloor
+			subt	elevPos
+			skipcond 400
+			jump 	floorReq
+
+			jump	getFloor	
+
+
+			
+/-----------------------------------
+/----------------------------------
+
+floorReqEx,		load	head		/load address of the first item of the list(1st floor)	
+			add 	dirFloor	/add the external floor req
+			subt	one
+			store	temp
+			load	one		/set flag to 1 in said floor		
+			storei	temp
+			jump	befMoveEx
+
+elevPosEx,		load 	head
+			add 	elevPos		/elevator position
+			subt 	one
+			store 	temp		/elevator position in the floor list
+			load 	elevPos
+			subt	dirFloor
+			skipcond 800
+			jump	moveUpEx		
+
+			jump	moveDownEx
+
+
+		/------GOING UP------/
+moveUpEx,		load 	elevPos
+			output
+			load	head
+			add	elevPos
+			subt	one
+			store	temp
+			loadi	temp
+			skipcond 400
+			jump 	arriveEx
+
+			load 	elevPos
+			add	one
+			store	elevPos		
+			jump 	moveUpEx	/if not, continue moving up
+	
+stopElevUpEx,		load	one
+			subt	one
+			storei 	temp
+			load	dirFlag
+			store	elevDirFlag
+			jump 	getFloor 	/STOP ELEVATPR/OPEN GET PEOPLE THEN ASK FLOOR REQ
+
+
+
+		/------GOING DOWN------/
+moveDownEx,		load 	elevPos
+			output
+			load	head
+			add	elevPos
+			subt	one
+			store	temp
+			loadi	temp
+			skipcond 400
+			jump 	arriveEx
+		
+			load	elevPos
+			subt	one
+			store 	elevPos
+			jump 	moveDownEx	/if not, continue moving down
+
+stopElevDownEx,		load	one
+			subt	one
+			storei	temp
+			load	dirFlag
+			store	elevDirFlag
+			jump 	getFloor	/STOP ELEVATPR/OPEN GET PEOPLE THEN ASK FLOOR REQ
+
+
+/-------------------------------------------------------------------------------------------------
+
+
+floorReq,		load	head		/set the pushed floor flag to 1
+			add 	pushFloor
+			subt	one
+			store	temp
+			loadi 	temp
+			add	one
+			storei	temp
+		
+			jump getFloor		/prompts for another floor
+
+	
+
+/elevator position
+elevPosLst,		load	head		/position of elevator in the list
+			add	elevPos
+			subt	one
+			store 	temp
+			jump	checkUpReq
+	
+
+/check for upward req
+checkUpReq,		load	temp		/check next floor
+			add 	one
+			store 	temp
+			loadi 	temp
+			skipcond 400
+			jump	upFlagOne
+	
+			jump	checkLenUp
+
+checkLenUp,		load 	elevPos
+			add 	one
+			add	countUp
+			subt	len
+			skipcond 400		/reach last floor floor?
+			jump 	incCountUp
+			
+			load	temp		/elevator initial postion 
+			subt	countUp
+			add	one
+			store	tempDown
+			jump 	checkDownReq	/check for downward req
+
+
+incCountUp,		load 	countUp
+			add 	one
+			store 	countUp		/increment counter
+			jump 	checkUpReq
+
+
+upFlagOne,		load 	one		/set flag to 1
+			store 	elevUpFlag
+			load	countUp
+			add	one
+			store 	countUpDist
+			jump 	incCountUp
+
+
+
+/check for downward request
+
+checkDownReq,		load 	tempDown	/check next floor
+			subt 	one
+			store 	tempDown
+			loadi 	tempDown
+			skipcond 400
+			jump 	downFlagOne	
+		
+			jump	checkLenDown
+
+checkLenDown,		load elevPos
+			subt one
+			subt countDown
+			skipcond 400	/ reach 1st floor?
+			jump incCountDown
+		
+			jump 	moveUpOrDown
+
+incCountDown,		load 	countDown	/increment counter
+			add 	one
+			store 	countDown
+			jump 	checkDownReq
+
+
+downFlagOne,		load 	one		/set flag to 1
+			store 	elevDownFlag
+			load 	countDown
+			subt 	one
+			store	countDownDist
+			jump 	incCountDown
+
+
+moveUpOrDown,		load 	elevDirFlag	/based on the elevator flag directior move up or down
+			subt	up
+			skipcond 400
+			jump 	checkMoveDown
+	
+			jump	checkMoveUp	
+/--------------------------------	
+
+checkMoveUp, 		load	one		/check if up flag was set
+			subt	elevUpFlag
+			skipcond 400
+			jump	clean
+	
+			load	one	
+			store 	elevDirFlag	/set elevator direction to 1
+			jump befMove
+
+checkMoveDown,		load 	one		/check if down flag was set
+			subt	elevDownFlag
+			skipcond 400
+			jump	clean		/THERES NO REQUEST
+
+			load	one
+			subt	one
+			subt	one
+			store 	elevDirFlag	/set elevator direction to 1
+			jump befMove
+/------------------------------
+/------GOING UP------/
+
+moveUp,			load 	elevPos
+			output			/show elev position
+			load	head
+			add	elevPos
+			subt	one
+			store	tempUp		/check if floor was pushed
+			loadi	tempUp
+			skipcond 400
+			jump 	arrive		
+	
+			load	elevPos		/increment elevator position
+			add	one
+			store	elevPos
+			load 	moveUpCount	/increment move counter
+			add 	one
+			store	moveUpCount
+			jump 	moveUp
+	
+stopElevUp,		load 	one 		/set flag to stopped floor to 0
+			subt 	one
+			storei 	tempUp
+			jump	isLastUpReq
+
+isLastUpReq,		load	moveUpCount	/check if it the last upward request
+			subt	countUpDist
+			subt	moveDownCount
+			skipcond 400
+			jump	befMove
+	
+			load	one
+			subt	one
+			store	elevUpFlag	/set elev up flag to 0
+			jump 	checkMoveDown
+
+/------GOING DOWN------/
+moveDown,		load 	elevPos
+			output			/show elev position
+			load	head
+			add	elevPos
+			subt	one
+			store	temp
+			loadi	temp
+			skipcond 400		/check if floor was pushed
+			jump 	arrive
+
+			load 	elevPos		/decrement elevator's position
+			subt	one
+			store	elevPos
+			load 	moveDownCount	/increment move counter
+			add 	one
+			store	moveDownCount
+			jump 	moveDown
+
+stopElevDown,		load	one
+			subt	one
+			storei 	temp		/set floor flag to 0
+			jump	isLastDownReq
+
+isLastDownReq,		load	moveDownCount	/check if is the last downward request
+			subt	countDownDist
+			subt	moveUpCount
+			skipcond 400
+			jump	befMove
+		
+			load	one
+			subt	one
+			store	elevDownFlag	/set elev down flag to 0
+			jump 	checkMoveUp
+				
+/---------------------------------
+/--------------------------------
+
+/Check system interlock.... using flags
+
+
+
+
+
+/---After arriving in said floor
+/after arriving on the external floor call
+arriveEx,		load 	dirFloor	/check if the floor arrived is the same as the elevator postion
+			subt 	elevPos
+			skipcond 400
+			HALT			
+		
+			jump	levelFloorEx	
+
+
+levelFloorEx,		load 	levelFlag	/level the floor
+	    		add	one
+			store 	levelFlag
+			skipcond 400
+			jump    doorStateEx
+	
+			HALT			
+
+doorStateEx,		load 	doorFlag	/open the door
+			add  	one
+			store 	doorFlag
+			load 	doorFlag
+			output
+			output
+			output
+			output
+			load 	elevDirFlag
+			subt one	
+			skipcond 400
+			jump	stopElevDownEx
+
+			jump	stopElevUpEx
+
+/after arriving on the external floor call	
+arrive,			jump	levelFloor	/check if the floor arrived is the same as the elevator postion
+
+
+levelFloor,		load 	levelFlag	/level floor
+	    		add	one
+			store 	levelFlag
+			skipcond 400
+			jump    doorState	
+
+			HALT			/Error
+
+doorState,		load	one		/open door
+			store 	doorFlag
+			load 	doorFlag
+			output
+			output
+			output
+			output
+			load 	elevDirFlag	/check direction of elevator to see if you stop down or up
+			subt one	
+			skipcond 400
+			jump	stopElevDown
+
+			jump	stopElevUp
+
+
+/----BEFORE moving
+/before moving when the elevator there's external call
+befMoveEx,		load 	one		/close door
+			subt 	doorFlag
+			store 	doorFlag
+			load 	doorFlag
+			output
+			output
+			output
+			output
+			load 	one
+			subt	levelFlag	/unlevel floor
+			store 	levelFlag
+			jump	doorStateExBef
+
+doorStateExBef,		load 	doorFlag	/check if door was closed
+			skipcond 400
+			HALT			/error
+
+			jump	unlevelFloorEx
+
+unlevelFloorEx,		load 	levelFlag	/check if floor was unleveled
+			skipcond 400
+			HALT			/error	
+	
+			jump	elevPosEx
+
+
+/before moving when the elevator there's internal call(floor push)
+befMove,		load 	one		/close door
+			subt 	doorFlag
+			store 	doorFlag
+			load 	doorFlag
+			output
+			output
+			output
+			output
+			load 	one		/unlevel floor
+			subt	levelFlag
+			store 	levelFlag
+			jump	doorStateBef
+
+doorStateBef,		load 	doorFlag	/check if door was closed
+			skipcond 400
+			HALT			/error
+
+			jump	unlevelFloor
+
+unlevelFloor,		load 	levelFlag	/check if floor is leveled
+			skipcond 400
+			HALT			/error	
+	
+			load 	elevDirFlag
+			subt 	one
+			skipcond 400
+			jump moveDown
+
+			jump moveUp
+
+doorOpen,		load	one
+			store 	doorFlag		/set door Flag to 1
+			load 	doorFlag
+			output
+			output
+			output
+			output	
+			jump getFloor
+
+
+/clean before restart
+clean,			load 	one	
+			store	levelFlag
+			load  	one
+			store	levelFlag
+			clear
+			store 	temp
+			clear
+			store	tempUp
+			clear
+			store	tempDown
+			clear
+			store	moveUp
+			clear
+			store	moveDown
+			clear
+			store	moveUpCount
+			clear
+			store	moveDownCount
+			jump	getDirFloor
+
+
+
+
+
+
+
+	
+
+
+up,			DEC	1
+down,			DEC 	-1
+dirFlag,		DEC	0	/(-1)down (1)up
+/upFlag 		DEC	0
+/downFlag 		DEC	0
+
+one,			DEC	1
+len,			DEC 	10
+dir,			DEC	0	
+pushFloor,		DEC	0	/push button floor
+dirFloor,		DEC	1	/floor of the up/down push
+open,			DEC	111	/open door
+/----------------------------------------------------------------
+floor,			DEC	0	/1
+			DEC	0	/2
+			DEC	0	/3
+			DEC	0	/4
+			DEC	0	/5
+			DEC	0	/6
+			DEC	0	/7
+			DEC	0	/8
+			DEC	0	/9
+			DEC	0	/10
+		
+
+head,			HEX	289	/Address of first item
+temp,			HEX	0	/elevator position in the floor list
+tempUp,			HEX	0	/elevator position in the floor list in upward request
+tempDown,		HEX	0	//elevator position in the floor list i downward request
+
+
+/one,			DEC	1
+/len,			DEC 	10
+count,			DEC	0
+countUp,		DEC	0
+countDown,		DEC	0
+moveUpCount,		DEC	0
+moveDownCount,		DEC	0
+countUpDist,		DEC	0	/Distance from elevator the elevator the last floor req in the upward dir 
+countDownDist,		DEC	0	/Distance from elevator the elevator the last floor req in the downard dir 
+/doorFlag,		DEC	1	/Door closed(0) open(1)
+elevPos, 		DEC	10	/Elevator position
+elevDirFlag,		DEC	0	/up(1) down(-1) hidle(0)
+elevDownFlag,		DEC	0	/active(1) not active(1)
+elevUpFlag,		DEC	0	/
+/-----------------------------------------------------------
+
+levelFlag,		DEC	1	/ not leveled(0) leveled(1)
+doorFlag,		DEC	1	/open(1) close(0)
+/one,			DEC	1
+

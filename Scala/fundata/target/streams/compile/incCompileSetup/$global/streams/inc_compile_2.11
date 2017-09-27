@@ -1,0 +1,214 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/aborges/fundata/target/scala-2.11/classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -feature
+3 -> -Xfatal-warnings
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+11 items
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$.class
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Empty$.class
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Empty.class
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Join$.class
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Join.class
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$JoinList.class
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Queue$.class
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Queue.class
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Singleton$.class
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Singleton.class
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures.class
+binary dependencies:
+2 items
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> /Users/aborges/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+11 items
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures$
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures$Empty
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures$Empty$
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures$Join
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures$Join$
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures$JoinList
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures$Queue
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures$Queue$
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures$Singleton
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures$Singleton$
+used names:
+92 items
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> &&
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> +
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> -
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> ::
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> <init>
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> ==
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> A
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Any
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> AnyRef
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> B
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Boolean
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Empty
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Function1
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Function2
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> FunctionalDataStructures
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> IndexOutOfBoundsException
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Int
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Iterator
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Join
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> JoinList
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> List
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> MatchError
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Nil
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> None
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Nothing
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Object
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Option
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Predef
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Product
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Queue
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> ScalaRunTime
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Serializable
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Singleton
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Some
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Statics
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> String
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> T
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> T0
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> T1
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> T2
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> T3
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Tuple2
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> Tuple3
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> _1
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> _2
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> _hashCode
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> _root_
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> _toString
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> alist1
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> alist2
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> alist3
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> alist4
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> anyHash
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> apply
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> asInstanceOf
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> back
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> compare
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> dequeue
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> elt
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> eq
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> f
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> filter
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> finalizeHash
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> first
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> front
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> head
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> i
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> immutable
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> isInstanceOf
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> lst
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> lst1
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> lst2
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> map
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> max
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> mix
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> n
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> ne
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> nth
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> package
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> pred
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> q
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> rest
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> reverse
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> runtime
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> scala
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> size
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> tail
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> toString
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> typedProductIterator
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> x
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> y
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> ||
+product stamps:
+11 items
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$.class -> lastModified(1476668138000)
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Empty$.class -> lastModified(1476668138000)
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Empty.class -> lastModified(1476668138000)
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Join$.class -> lastModified(1476668138000)
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Join.class -> lastModified(1476668138000)
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$JoinList.class -> lastModified(1476668138000)
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Queue$.class -> lastModified(1476668138000)
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Queue.class -> lastModified(1476668138000)
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Singleton$.class -> lastModified(1476668138000)
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures$Singleton.class -> lastModified(1476668138000)
+/Users/aborges/fundata/target/scala-2.11/classes/FunctionalDataStructures.class -> lastModified(1476668138000)
+source stamps:
+1 items
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> hash(0ee71ef547470cf2157482a5a30b2331d33d83d9)
+binary stamps:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1466622116000)
+/Users/aborges/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+class names:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/aborges/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.Serializable
+internal apis:
+1 items
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw3wiJ4wAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAA1c3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwEMY6iXQABm5vdGlmeXNxAH4ADBKDoXZ0AAd1bmFwcGx5c3EAfgAMV1yPRHQAA2VsdHNxAH4ADBmcQAJ0AARsc3Qxc3EAfgAMTVkHGXQAB2RlcXVldWVzcQB+AAwKbit3dAAEd2FpdHNxAH4ADEIZvfJ0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADKAISkN0AA0kYXNJbnN0YW5jZU9mc3EAfgAMhl1jF3QABHNpemVzcQB+AAx3EOo4dAADbWFwc3EAfgAMqK+CHnQADHByb2R1Y3RBcml0eXNxAH4ADAXk81d0AAlTaW5nbGV0b25zcQB+AAzz9C2OdAAGZXF1YWxzc3EAfgAMaaHQQnQABWZyb250c3EAfgAM7Qi17XQABHJlc3RzcQB+AAzCNzGvdAAMYXNJbnN0YW5jZU9mc3EAfgAM1xd+C3QADHN5bmNocm9uaXplZHNxAH4ADCgFreF0AA0kaXNJbnN0YW5jZU9mc3EAfgAMjMrZv3QAB2VucXVldWVzcQB+AAwgvxzzdAAIY2FuRXF1YWxzcQB+AAyh/RUJdAAEdGFpbHNxAH4ADJbic1h0AA1wcm9kdWN0UHJlZml4c3EAfgAMGk4KIHQABGxzdDJzcQB+AAxedY32dAAJbm90aWZ5QWxsc3EAfgAMBtjsBHQADGlzSW5zdGFuY2VPZnNxAH4ADIShNA10AAZmaWx0ZXJzcQB+AAzxgDXmdAAGPGluaXQ+c3EAfgAM3OTI4nQACEpvaW5MaXN0c3EAfgAMMjSE7HQAA21heHNxAH4ADJ/vy8N0AAVhcHBseXNxAH4ADOuhjBZ0ABhGdW5jdGlvbmFsRGF0YVN0cnVjdHVyZXNzcQB+AAzyXABpdAAFRW1wdHlzcQB+AAzgmxmCdAACPT1zcQB+AAxTLBEDdAAFY2xvbmVzcQB+AAy3+0JldAAEYmFja3NxAH4ADOAqoF50AAVRdWV1ZXNxAH4ADEeKxS90AAYkaW5pdCRzcQB+AAzcSUZJdAADbnRoc3EAfgAMeA6t+XQABWZpcnN0c3EAfgAMdF/Z2XQADmNvcHkkZGVmYXVsdCQzc3EAfgAM4CFO4nQABGNvcHlzcQB+AAxu7akUdAAIdG9TdHJpbmdzcQB+AAzZsB6kdAAESm9pbnNxAH4ADE4eQUx0AAIhPXNxAH4ADNJVg/V0AAhnZXRDbGFzc3NxAH4ADIX+pXl0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADM8s0Vl0AAJuZXNxAH4ADBBdfNF0AAJlcXNxAH4ADPMQ6AN0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAwqDwdydAACIyNzcQB+AAyZxv2adAAIZmluYWxpemVzcQB+AAx8Obm2dAAOcHJvZHVjdEVsZW1lbnRzcQB+AAw/KzNUdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+AEt1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AJhzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AgUwACWluaGVyaXRlZHEAfgCBTAAHcGFyZW50c3EAfgCBeHEAfgCdc3EAfgCYdXEAfgB8AAAAAHNxAH4AmHVxAH4AfAAAAABzcQB+AJh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AJx0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJxzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+ALV0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ALZzcQB+AKl0AANBbnlzcQB+AK1zcQB+ALB1cQB+ALMAAAACc3EAfgC1dAAFc2NhbGFxAH4AvHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFX0EeSs3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADAvVXNlcnMvYWJvcmdlcy9mdW5kYXRhL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQO5x71R0cM8hV0gqWjCyMx0z2D2Q==
+external apis:
+0 items
+source infos:
+1 items
+/Users/aborges/fundata/src/main/scala/FunctionalDataStructures.scala -> 
+AAAAAAAAAAA=
+compilations:
+14 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV23fOj91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV23jOPd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV24J2cF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV24ThVJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV24T2vd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV245bBB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV3HpNIl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV3J6jTF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV3KcQo91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV3YbGhJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV3eW5DV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV3ejLW91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV4+1TYl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABV9BHkrN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMC9Vc2Vycy9hYm9yZ2VzL2Z1bmRhdGEvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=

@@ -1,0 +1,82 @@
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0mdebug[0m] [0mstart file /Users/aborges/sudoku1/src/main/scala/Solution.scala[0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:18:4: [0m
+[0m[[31merror[0m] [0m    Do not use 'while' loops. Use the 'map' method to process collections.[0m
+[0m[[31merror[0m] [0m    [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:13:4: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:14:4: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:41:8: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:47:8: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:58:12: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:76:4: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:111:4: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:118:6: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:143:4: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:151:10: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:157:12: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:175:4: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:185:4: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:187:6: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:195:4: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[31merror[0m] [0m/Users/aborges/sudoku1/src/main/scala/Solution.scala:219:4: [0m
+[0m[[31merror[0m] [0m     Do not use 'var' to declare variables. Use 'val' instead.[0m
+[0m[[31merror[0m] [0m     [0m
+[0m[[0mdebug[0m] [0mend file /Users/aborges/sudoku1/src/main/scala/Solution.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Users/aborges/sudoku1/src/test/scala/TrivialTestSuite.scala[0m
+[0m[[0mdebug[0m] [0mend file /Users/aborges/sudoku1/src/test/scala/TrivialTestSuite.scala[0m
+java.lang.RuntimeException: errors exist
+	at scala.sys.package$.error(package.scala:27)
+	at org.scalastyle.sbt.Tasks$.onHasErrors$1(Plugin.scala:132)
+	at org.scalastyle.sbt.Tasks$.doScalastyleWithConfig$1(Plugin.scala:187)
+	at org.scalastyle.sbt.Tasks$.doScalastyle(Plugin.scala:195)
+	at cmpsci220.plugin.Tasks$.checkstyle(Tasks.scala:57)
+	at cmpsci220.plugin.Plugin$$anonfun$projectSettings$11.apply(Plugin.scala:57)
+	at cmpsci220.plugin.Plugin$$anonfun$projectSettings$11.apply(Plugin.scala:57)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[0m[[31merror[0m] [0m(*:[31mcheckstyle[0m) errors exist[0m

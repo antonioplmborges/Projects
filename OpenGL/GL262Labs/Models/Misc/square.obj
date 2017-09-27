@@ -1,0 +1,33 @@
+# cube.obj
+#
+ 
+g cube
+ 
+#vertices
+# front
+v  -1.0  -1.0   1.0
+v   1.0  -1.0   1.0
+v   1.0   1.0   1.0
+v  -1.0   1.0   1.0
+
+# normals
+# front
+vn  0.0 0.0 1.0
+vn  0.0 0.0 1.0
+vn  0.0 0.0 1.0
+vn  0.0 0.0 1.0
+
+# The texture mapping is identical for all faces:
+# UVs
+# front
+vt  0.0  0.0
+vt  1.0  0.0
+vt  1.0  1.0
+vt  0.0  1.0
+
+# indices
+# f  v/t/n  v/t/n  v/t/n
+# front
+f  1//1  2//2  3//3
+f  3//3  4//4  1//1
+

@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0m[32mTestSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- enqueue test000[0m[0m
+[0m[[0minfo[0m] [0m[32m- enqueue test[0m[0m
+[0m[[0minfo[0m] [0m[32m- enqueue test2[0m[0m
+[0m[[0minfo[0m] [0m[32m- dequeue test1[0m[0m
+[0m[[0minfo[0m] [0m[32m- dequeue test2[0m[0m
+[0m[[0minfo[0m] [0m[32m- match first test[0m[0m
+[0m[[0minfo[0m] [0m[32m- first test[0m[0m
+[0m[[0minfo[0m] [0m[32m- first test2[0m[0m
+[0m[[0minfo[0m] [0m[32m- first test3[0m[0m
+[0m[[0minfo[0m] [0m[32m- match rest test[0m[0m
+[0m[[0minfo[0m] [0m[32m- match rest1 test[0m[0m
+[0m[[0minfo[0m] [0m[32m- match rest2 test[0m[0m
+[0m[[0minfo[0m] [0m[32m- map test[0m[0m
+[0m[[0minfo[0m] [0m[32m- map test2[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter test[0m[0m
+[0m[[0minfo[0m] [0m[32m- match nth test[0m[0m
+[0m[[0minfo[0m] [0m[32m- match max test[0m[0m
+[0m[[0minfo[0m] [0m[32m- match max2 test[0m[0m

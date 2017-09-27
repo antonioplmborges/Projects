@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/Users/aborges/sudoku1/src/main/scala/Solution.scala">
+  <error column="4" line="18" source="org.scalastyle.scalariform.WhileChecker" severity="error" message="
+    Do not use 'while' loops. Use the 'map' method to process collections.
+    "/>
+  <error column="4" line="13" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="4" line="14" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="8" line="41" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="8" line="47" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="12" line="58" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="4" line="76" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="4" line="111" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="6" line="118" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="4" line="143" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="10" line="151" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="12" line="157" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="4" line="175" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="4" line="185" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="6" line="187" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="4" line="195" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+  <error column="4" line="219" source="org.scalastyle.scalariform.VarLocalChecker" severity="error" message="
+     Do not use 'var' to declare variables. Use 'val' instead.
+     "/>
+ </file>
+</checkstyle>

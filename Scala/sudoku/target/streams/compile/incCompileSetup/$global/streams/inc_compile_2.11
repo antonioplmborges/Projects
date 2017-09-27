@@ -1,0 +1,292 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/aborges/sudoku/target/scala-2.11/classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -feature
+3 -> -Xfatal-warnings
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+21 items
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$6$$anonfun$apply$1.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$6.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$7$$anonfun$apply$2.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$7.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$8.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$availableValuesAt$1.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$isSolved$1.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$isUnsolvable$1.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$nextStates$1.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Board.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$1.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$2.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$3$$anonfun$apply$3.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$3.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$4$$anonfun$apply$4.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$4.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$5$$anonfun$apply$5.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$5.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$peersHelper$1.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution$.class
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/sudoku/target/scala-2.11/classes/Solution.class
+binary dependencies:
+3 items
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/.ivy2/cache/edu.umass.cs/compsci220_2.11/jars/compsci220_2.11-1.3.1.jar
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /Users/aborges/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+21 items
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board$$anonfun$6
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board$$anonfun$6$$anonfun$apply$1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board$$anonfun$7
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board$$anonfun$7$$anonfun$apply$2
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board$$anonfun$8
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board$$anonfun$availableValuesAt$1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board$$anonfun$isSolved$1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board$$anonfun$isUnsolvable$1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board$$anonfun$nextStates$1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution$
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution$$anonfun$1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution$$anonfun$2
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution$$anonfun$3
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution$$anonfun$3$$anonfun$apply$3
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution$$anonfun$4
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution$$anonfun$4$$anonfun$apply$4
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution$$anonfun$5
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution$$anonfun$5$$anonfun$apply$5
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution$$anonfun$peersHelper$1
+used names:
+136 items
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> !=
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> $conforms
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> %
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> &&
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> *
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> +
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> ++
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> -
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> ->
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> /
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> ::
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> <:<
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> <byname>
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> <init>
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> <repeated>
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> ==
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> A
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> A1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Any
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> AnyRef
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> ArrowAssoc
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> B
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> B1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Board
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> BoardLike
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Boolean
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> CanBuildFrom
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Char
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> CharSequence
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Coll
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Function1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> GenTraversableOnce
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Inclusive
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> IndexedSeq
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Int
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Iterable
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Iterator
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> List
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Map
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> MatchError
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> MatchIterator
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Nil
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> None
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Nothing
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Object
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Option
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Predef
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Range
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Regex
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> RichInt
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Solution
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Some
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> String
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> StringOps
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> SudokuLike
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> T
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> T0
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> T1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> T2
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> That
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Tuple2
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> U
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> Unit
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> _1
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> _2
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> apply
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> asInstanceOf
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> augmentString
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> available
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> availableStates
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> availableValuesAt
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> boxPeers
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> c
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> canBuildFrom
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> col
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> colBox
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> colPeers
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> contains
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> currentBoard
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> distinct
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> emptyBoard
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> emptyPuzzleMap
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> exists
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> filter
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> filterNot
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> finalBoard
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> findAllIn
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> flatMap
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> forall
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> get
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> getOrElse
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> head
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> hw
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> immutable
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> index
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> intWrapper
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> integer
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> isInstanceOf
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> isSolved
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> isUnsolvable
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> length
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> lst
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> map
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> mkString
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> ne
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> newBoard
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> nextStates
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> package
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> parseHelper
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> parsedString
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> pattern
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> peers
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> peersFiltered
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> peersHelper
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> peersMatrix
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> place
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> placeHelper
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> r
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> require
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> row
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> rowBox
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> rowPeers
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> scala
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> size
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> solve
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> str
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> sudoku
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> tail
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> to
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> toInt
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> toList
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> toMap
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> value
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> valuesIterator
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> x
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> y
+product stamps:
+21 items
+/Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$6$$anonfun$apply$1.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$6.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$7$$anonfun$apply$2.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$7.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$8.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$availableValuesAt$1.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$isSolved$1.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$isUnsolvable$1.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Board$$anonfun$nextStates$1.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Board.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$1.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$2.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$3$$anonfun$apply$3.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$3.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$4$$anonfun$apply$4.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$4.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$5$$anonfun$apply$5.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$5.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution$$anonfun$peersHelper$1.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution$.class -> lastModified(1478634691000)
+/Users/aborges/sudoku/target/scala-2.11/classes/Solution.class -> lastModified(1478634691000)
+source stamps:
+1 items
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> hash(d90572e8d601452522388c208679ac95d8905918)
+binary stamps:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1466622116000)
+/Users/aborges/.ivy2/cache/edu.umass.cs/compsci220_2.11/jars/compsci220_2.11-1.3.1.jar -> lastModified(1475738282000)
+/Users/aborges/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+class names:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/aborges/.ivy2/cache/edu.umass.cs/compsci220_2.11/jars/compsci220_2.11-1.3.1.jar -> hw.sudoku.SudokuLike
+/Users/aborges/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.collection.generic.GenMapFactory
+internal apis:
+1 items
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwaHbnhwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAlc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw4DlXYXQABm5vdGlmeXNxAH4ADCnLZn10AAd2YWx1ZUF0c3EAfgAMRZNjzHQACFNvbHV0aW9uc3EAfgAMr8NyoHQABHdhaXRzcQB+AAxQfimWdAAIaXNTb2x2ZWRzcQB+AAxO4vQfdAANJGFzSW5zdGFuY2VPZnNxAH4ADIEuuvB0AAtwZWVyc01hdHJpeHNxAH4ADNE1ZtN0ABFhdmFpbGFibGVWYWx1ZXNBdHNxAH4ADCdcqpR0AAVCb2FyZHNxAH4ADNtGxYx0AAVzb2x2ZXNxAH4ADG/GrTF0AAZlcXVhbHNzcQB+AAzFh9SidAAKbmV4dFN0YXRlc3NxAH4ADB/4zKx0AAFUc3EAfgAMfWpwa3QADGFzSW5zdGFuY2VPZnNxAH4ADFkd2FN0AAxzeW5jaHJvbml6ZWRzcQB+AAwfbG6MdAANJGlzSW5zdGFuY2VPZnNxAH4ADAd1JCh0AAxpc1Vuc29sdmFibGVzcQB+AAwjihcqdAAJbm90aWZ5QWxsc3EAfgAM36FQOnQADGlzSW5zdGFuY2VPZnNxAH4ADMhaEF10AAY8aW5pdD5zcQB+AAzrsV0GdAALcGxhY2VIZWxwZXJzcQB+AAw+orpVdAAFcGFyc2VzcQB+AAxRSg4XdAACPT1zcQB+AAyLrpYXdAAFY2xvbmVzcQB+AAyPdvl2dAALcGVlcnNIZWxwZXJzcQB+AAwNu6rCdAALcGFyc2VIZWxwZXJzcQB+AAwTkr2SdAAJYXZhaWxhYmxlc3EAfgAMJbChnXQACHRvU3RyaW5nc3EAfgAM0JSqenQABXBsYWNlc3EAfgAMrcrv9XQAAiE9c3EAfgAMjDxt03QACGdldENsYXNzc3EAfgAM5IFUAnQAAm5lc3EAfgAMTy0zd3QABXBlZXJzc3EAfgAMlynlZnQAAmVxc3EAfgAMczKB5HQAAiMjc3EAfgAMk8LtO3QACGZpbmFsaXplc3EAfgAM5swKbXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AYXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgATdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB4c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGFMAAlpbmhlcml0ZWRxAH4AYUwAB3BhcmVudHNxAH4AYXhxAH4AfXNxAH4AeHVxAH4AXAAAAABzcQB+AHh1cQB+AFwAAAAAc3EAfgB4dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB8dAAKU3Vkb2t1TGlrZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AfHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAACaHdzcQB+AJV0AAZzdWRva3VzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AlnNxAH4AiXQABk9iamVjdHNxAH4AjXNxAH4AkHVxAH4AkwAAAANzcQB+AJV0AARqYXZhc3EAfgCVdAAEbGFuZ3EAfgCcc3EAfgCJdAADQW55c3EAfgCNc3EAfgCQdXEAfgCTAAAAAnNxAH4AlXQABXNjYWxhcQB+AJxzcQB+AF5xAH4Aa3VxAH4AbAAAAABzcQB+AG4AcQB+AB91cQB+AHAAAAAAfnEAfgBydAAIQ2xhc3NEZWZ1cQB+AHYAAAAAc3EAfgB4cQB+AH5zcQB+AHhzcQB+AIBzcQB+AHh1cQB+AFwAAAAAc3EAfgB4dXEAfgBcAAAAAHNxAH4AeHVxAH4AhwAAAANzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIpbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHxzcQB+AIl0AAlCb2FyZExpa2VzcQB+AI1zcQB+AJB1cQB+AJMAAAADc3EAfgCVdAACaHdzcQB+AJV0AAZzdWRva3VxAH4AnHVxAH4AhwAAAAFzcQB+AIl0AAVCb2FyZHNxAH4AjXNxAH4AkHVxAH4AkwAAAAFxAH4AnHNxAH4AiXEAfgCec3EAfgCNc3EAfgCQdXEAfgCTAAAAA3NxAH4AlXEAfgCjc3EAfgCVcQB+AKVxAH4AnHNxAH4AiXEAfgCnc3EAfgCNc3EAfgCQdXEAfgCTAAAAAnNxAH4AlXEAfgCscQB+AJx1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWEV+1E51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAvL1VzZXJzL2Fib3JnZXMvc3Vkb2t1L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTZBXLo1gFFJSI4jCCGeayV2JBZGA==
+external apis:
+0 items
+source infos:
+1 items
+/Users/aborges/sudoku/src/main/scala/Solution.scala -> 
+AAAAAAAAAAA=
+compilations:
+15 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWEIpDDZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWEIpz/t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWEI7w/R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWEJXhhB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWELNAAV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWEMuPKZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWESAKiB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWESOcZt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWETpfT91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWETq8MF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWETrbhZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWEVCjVV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWEVEXoZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWEViydd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWEV+1E51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQALy9Vc2Vycy9hYm9yZ2VzL3N1ZG9rdS90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

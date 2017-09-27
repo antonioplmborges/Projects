@@ -1,0 +1,5 @@
+Enter a name or partial name:
+almer
+Gerri Palmer, 555-8787
+Ron Palmer, 777-2783
+Press any key to continue . . .
